@@ -39,7 +39,8 @@ ggplot(diamonds) +
 ### to plot, summarize, calculate something simple using the diamonds
 ### dataset.
 
-
+ggplot(diamonds, aes(x=carat, y=cut))+ 
+  geom_point()
 ```
 
 ## STEP 11: And even more merge conflicts!
